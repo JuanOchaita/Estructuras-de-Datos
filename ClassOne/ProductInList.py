@@ -2,6 +2,8 @@
 Product in List O(n^2)
 '''
 
+''' O(n^2): 1 + 1 + 1 + (n * 2n + 1) + 1'''
+
 array = [1] * 100                           # O(1)
 product = 2                                 # O(1)
 product_in_array = False                    # O(1)
