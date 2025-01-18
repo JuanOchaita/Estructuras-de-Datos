@@ -3,7 +3,7 @@
 */
 
 // Each INT value occupies 4 bits of continuous memory
-
+ 
 #include <stdio.h>
 
 int main()
