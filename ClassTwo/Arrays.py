@@ -1,7 +1,7 @@
 '''
 'Array' elements in memory.
 '''
-
+ 
 # Each INT value occupies 32 bits of continuous memory
 
 arr = [1, 2, 3, 4, 5]
