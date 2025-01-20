@@ -17,3 +17,12 @@ class Stack:
         else:
             self.Top += 1
             self.Elements[self.Top] = value
+    
+    def Pop(self) -> any:
+        if self.Top == -1:
+            print("Stack Underflow")
+        else:
+            value = self.Elements[self.Top]
+            self.Elements[self.Top]
+            self.Top -= 1
+            return value
