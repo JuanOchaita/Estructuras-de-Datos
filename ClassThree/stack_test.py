@@ -4,19 +4,29 @@ Stack Testing
 
 from stack import Stack
 
-stest_stack = Stack(5)
-print(stest_stack)
+test_stack = Stack(5)
+print(test_stack)
 
 #Pushes
-stest_stack.Push("A")
-print(stest_stack)
-stest_stack.Push("B")
-print(stest_stack)
-stest_stack.Push("C")
-print(stest_stack)
-stest_stack.Push("D")
-print(stest_stack)
-stest_stack.Push("E")
-print(stest_stack)
-stest_stack.Push("F")
-print(stest_stack)
+test_stack.Push("A")
+print(test_stack)
+test_stack.Push("B")
+print(test_stack)
+test_stack.Push("C")
+print(test_stack)
+test_stack.Push("D")
+print(test_stack)
+test_stack.Push("E")
+print(test_stack)
+test_stack.Push("F")
+print(test_stack)
+print()
+
+# Pops
+test_stack.Pop()
+print(test_stack)
+test_stack.Pop()
+print(test_stack)
+test_stack.Pop()
+print(test_stack)
+print("Peeked", test_stack.Peek())
