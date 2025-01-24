@@ -3,6 +3,7 @@ Stack Implementation
 '''
 
 class Stack:
+    
     def __init__(self, size: int):
         
         self.Top = -1
@@ -33,7 +34,7 @@ class Stack:
         self.Top -= 1
         return value
 
-    def peek(self) -> any:
+    def Peek(self) -> any:
         
         if self.Top == -1:
             print("Stack underflow")
