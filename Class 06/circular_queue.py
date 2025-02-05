@@ -25,10 +25,6 @@ class CircularQueue:
         else:
             self.rear += 1
 
-        if self.front == self.rear:
-            print('Queue overflow...')
-            return None 
-
         self.elements[self.rear] = val
         
     def dequeue(self) -> str:
