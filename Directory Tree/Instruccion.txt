@@ -1,0 +1,5 @@
+Crear un script de Python que:
+- Reciba como parámetro un path del sistema de archivos
+- Escanee todos los archivos y carpetas que se encuentren en dicho path
+- Utilizando la estructura adjunta en Tree.py, represente los archivos y carpetas escaneados (únicamente agregar el nombre, no el contenido)
+- Imprimir el árbol en consola de alguna forma visual
